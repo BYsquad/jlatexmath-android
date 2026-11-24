@@ -2,7 +2,7 @@ apply plugin: 'com.android.library'
 
 android {
 
-    namespace 'ru.noties.jlatexmath.android'
+    namespace = 'ru.noties.jlatexmath.android'
     compileSdk 36
     buildToolsVersion '36.0.0'
 
@@ -16,7 +16,7 @@ android {
     }
 
     lintOptions {
-        abortOnError false
+        abortOnError = false
     }
 }
 
